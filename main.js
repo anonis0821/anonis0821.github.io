@@ -1,5 +1,10 @@
 /* 메인 홈페이지 아이콘 숨김을 위한 코드 */
 
+
+
+
+
+
 function toggleBtn1() {
   
 	// 토글 할 버튼 선택 (btn1)
@@ -9,6 +14,8 @@ function toggleBtn1() {
 	const btn4 = document.getElementById('show-popup4');
 	const btn5 = document.getElementById('show-popup5');
 	const btn6 = document.getElementById('show-popup6');
+	const btnmain = document.getElementById('main-button');
+	
 	
 	
 	// btn1 숨기기 (visibility: hidden)
@@ -28,6 +35,40 @@ function toggleBtn1() {
 	  btn4.style.visibility = 'visible';
 	  btn5.style.visibility = 'visible';
 	  btn6.style.visibility = 'visible';
+	  btnmain.style.visibility = 'hidden';
+	}	
+  }
+  function toggleBtn2() {
+  
+	const btn11 = document.getElementById('show-popup1');
+	const btn22 = document.getElementById('show-popup2');
+	const btn33 = document.getElementById('show-popup3');
+	const btn44 = document.getElementById('show-popup4');
+	const btn55 = document.getElementById('show-popup5');
+	const btn66 = document.getElementById('show-popup6');
+	const btnmain1 = document.getElementById('main-button');
+	
+	
+	
+	// btn1 숨기기 (visibility: hidden)
+	if(btnmain1.style.visibility !== 'hidden') {
+	  btn11.style.visibility = 'hidden';
+	  btn22.style.visibility = 'hidden';
+	  btn33.style.visibility = 'hidden';
+	  btn44.style.visibility = 'hidden';
+	  btn55.style.visibility = 'hidden';
+	  btn66.style.visibility = 'hidden';
+	  btnmain1.style.visibility = 'visible';
+	}
+	// btn` 보이기 (visibility: visible)
+	else {
+		btn11.style.visibility = 'hidden';
+		btn22.style.visibility = 'hidden';
+		btn33.style.visibility = 'hidden';
+		btn44.style.visibility = 'hidden';
+		btn55.style.visibility = 'hidden';
+		btn66.style.visibility = 'hidden';
+	  btnmain1.style.visibility = 'visible';
 	}	
   }
 
