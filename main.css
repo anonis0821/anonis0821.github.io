@@ -173,7 +173,7 @@ overflow-x: hidden;
 
 #filename {
   position: absolute;
-  top: 94%;
+  top: 4%;
   left: 50%;
   transform: translateX(-50%);
   color: white; /* 파일 이름의 색상을 설정합니다 */
