@@ -1149,7 +1149,7 @@ lofifont{
   width: 50%;
   height: 50%;
   transform: translate(-50%, -50%);
-  background-color: #bec7cd;
+  background-color: #c0c0c0;
   padding: 20px;
   /*border : 5px solid black;*/
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
