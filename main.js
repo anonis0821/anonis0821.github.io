@@ -87,9 +87,9 @@ var images = [
 	"/img/portfolio/ANONIS_22.jpg", "/img/portfolio/ANONIS_23.jpg", "/img/portfolio/ANONIS_24.jpg", 
 	"/img/portfolio/ANONIS_25.jpg", "/img/portfolio/ANONIS_26.jpg", "/img/portfolio/ANONIS_27.jpg", 
 	"/img/portfolio/ANONIS_28.jpg", "/img/portfolio/ANONIS_29.jpg", "/img/portfolio/ANONIS_30.jpg", 
-	"/img/portfolio/ANONIS_31.jpg", "/img/portfolio/ANONIS_32.jpg", "/img/portfolio/ANONIS_33.jpg", 
-	"/img/portfolio/ANONIS_34.jpg", "/img/portfolio/ANONIS_35.jpg", "/img/portfolio/ANONIS_36.jpg", 
-	"/img/portfolio/ANONIS_37.jpg", "/img/portfolio/ANONIS_38.jpg", "/img/portfolio/ANONIS_3.jpg", 
+	"/img/portfolio/ANONIS_31.jpg", "/img/portfolio/ANONIS_32.jpg", "/img/portfolio/ANONIS_33.png", 
+	"/img/portfolio/ANONIS_34.png", "/img/portfolio/ANONIS_35.png", "/img/portfolio/ANONIS_36.png", 
+	"/img/portfolio/ANONIS_37.png", "/img/portfolio/ANONIS_38.png", "/img/portfolio/ANONIS_3.jpg", 
 	"/img/portfolio/ANONIS_4.jpg", "/img/portfolio/ANONIS_5.jpg", "/img/portfolio/ANONIS_6.jpg", 
 	"/img/portfolio/ANONIS_7.jpg", "/img/portfolio/ANONIS_8.jpg"]
 /*var images = [
