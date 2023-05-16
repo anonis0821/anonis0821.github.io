@@ -91,7 +91,10 @@ var images = [
 	"/img/portfolio/ANONIS_34.jpg", "/img/portfolio/ANONIS_35.jpg", "/img/portfolio/ANONIS_36.jpg", 
 	"/img/portfolio/ANONIS_37.jpg", "/img/portfolio/anoco_1.jpg", "/img/portfolio/anoco_2.jpg", 
 	"/img/portfolio/anoco_3.jpg", "/img/portfolio/anoco_4.jpg", "/img/portfolio/AYAMORIE_1.jpg", 
-	"/img/portfolio/AYAMORIE_2.jpg", "/img/portfolio/AYAMORIE_3.jpg"]
+	"/img/portfolio/AYAMORIE_2.jpg", "/img/portfolio/AYAMORIE_3.jpg", "ZOSUNGA_1.jpg", "ZOSUNGA_2.jpg",
+    "SEIZESEI_1.jpg", "SEIZESEI_2.jpg", "SEIZESEI_3.jpg", "OMO_1.jpg", "OMO_2.jpg", "OMO_3.jpg", "OMO_4.jpg",
+    "LOTUSYEON_1.jpg", "LOTUSYEON_2.jpg", "LOTUSYEON_3.jpg", "Heinz_1.jpg", "Heinz_2.jpg", "OUEN_1.jpg", "OUEN_2.jpg", "OUEN_3.jpg"
+    ,"Roompacker.jpg", "66girls.jpg"]
 /*var images = [
 "/img/ANONIS_1.jpg", "/img/portfolio/ANONIS_2.jpg", "/img/portfolio/img (3).jpg", "/img/portfolio/img (4).jpg", 
 "/img/portfolio/img (5).jpg", "/img/portfolio/img (6).jpg", "/img/portfolio/img (7).jpg", "/img/portfolio/img (8).jpg", 
