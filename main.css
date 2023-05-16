@@ -206,15 +206,16 @@ overflow-x: hidden;
 
 #close-button {
 	position: absolute;
-	height: 50%;
-	width: 50%;
-	background-color: transparent;
+	top: 30px;
+	right: 40px;
+	height: 30px;
+	width: 30px;
+	background-color: rgba(255, 255, 255, 0.5);
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	cursor: pointer;
-  color:transparent;
 }
 
 #prev-button, #next-button {
