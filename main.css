@@ -171,13 +171,14 @@ overflow-x: hidden;
 	align-items: center;
 }
 
-#filename{
+#filename {
   position: absolute;
-  top: 94%; /* 원하는 위치에 맞게 조절 */
+  top: 94%;
   left: 50%;
   transform: translateX(-50%);
+  color: white; /* 파일 이름의 색상을 설정합니다 */
+  font-size: 18px; /* 파일 이름의 글꼴 크기를 설정합니다 */
 }
-
 #gallery {
 	position: relative;
 	display: flex;

@@ -97,28 +97,28 @@ var images = [
     "/img/portfolio/LOTUSYEON_1.jpg", "/img/portfolio/LOTUSYEON_2.jpg", "/img/portfolio/LOTUSYEON_3.jpg", 
 	"/img/portfolio/Heinz_1.jpg", "/img/portfolio/Heinz_2.jpg", "/img/portfolio/OUEN_1.jpg", "/img/portfolio/OUEN_2.jpg", "/img/portfolio/OUEN_3.jpg"
     ,"/img/portfolio/Roompacker.jpg", "/img/portfolio/66girls.jpg"]
-/*var images = [
-"/img/ANONIS_1.jpg", "/img/portfolio/ANONIS_2.jpg", "/img/portfolio/img (3).jpg", "/img/portfolio/img (4).jpg", 
-"/img/portfolio/img (5).jpg", "/img/portfolio/img (6).jpg", "/img/portfolio/img (7).jpg", "/img/portfolio/img (8).jpg", 
-"/img/portfolio/img (9).jpg", "/img/portfolio/img (10).jpg", "/img/portfolio/img (11).jpg", "/img/portfolio/img (12).jpg", 
-"/img/portfolio/img (13).jpg", "/img/portfolio/img (14).jpg", "/img/portfolio/img (15).jpg", "/img/portfolio/img (16).jpg", 
-"/img/portfolio/img (17).jpg", "/img/portfolio/img (18).jpg", "/img/portfolio/img (19).jpg", "/img/portfolio/img (20).jpg", 
-"/img/portfolio/img (21).jpg", "/img/portfolio/img (22).jpg", "/img/portfolio/img (23).jpg", "/img/portfolio/img (24).jpg", 
-"/img/portfolio/img (25).jpg", "/img/portfolio/img (26).jpg", "/img/portfolio/img (27).jpg", "/img/portfolio/img (28).jpg", 
-"/img/portfolio/img (29).jpg", "/img/portfolio/img (30).jpg", "/img/portfolio/img (31).jpg", "/img/portfolio/img (32).jpg", 
-"/img/portfolio/img (33).jpg", "/img/portfolio/img (34).jpg", "/img/portfolio/img (35).jpg", "/img/portfolio/img (36).jpg", 
-"/img/portfolio/img (37).jpg", "/img/portfolio/img (44).jpg", 
-"/img/portfolio/img (45).jpg", "/img/portfolio/img (46).jpg", "/img/portfolio/img (47).jpg", "/img/portfolio/img (48).jpg", 
-"/img/portfolio/img (49).jpg", "/img/portfolio/img (50).jpg", "/img/portfolio/img (51).jpg", "/img/portfolio/img (52).jpg", 
-"/img/portfolio/img (53).jpg", "/img/portfolio/img (54).jpg", "/img/portfolio/img (55).jpg", "/img/portfolio/img (56).jpg", 
-"/img/portfolio/img (57).jpg", "/img/portfolio/img (58).jpg", "/img/portfolio/img (59).jpg", "/img/portfolio/img (60).jpg", 
-"/img/portfolio/img (61).jpg", "/img/portfolio/img (62).jpg", "/img/portfolio/img (63).jpg"];*/
+
+	var filenames = [
+		"ANONIS_1.jpg", "ANONIS_2.jpg", "ANONIS_3.jpg", "ANONIS_4.jpg", "ANONIS_5.jpg", "ANONIS_6.jpg",
+		"ANONIS_7.jpg", "ANONIS_8.jpg", "ANONIS_9.jpg", "ANONIS_10.jpg", "ANONIS_11.jpg", "ANONIS_12.jpg",
+		"ANONIS_13.jpg", "ANONIS_14.jpg", "ANONIS_15.jpg", "ANONIS_16.jpg", "ANONIS_17.jpg", "ANONIS_18.jpg",
+		"ANONIS_19.jpg", "ANONIS_20.jpg", "ANONIS_21.jpg", "ANONIS_22.jpg", "ANONIS_23.jpg", "ANONIS_24.jpg",
+		"ANONIS_25.jpg", "ANONIS_26.jpg", "ANONIS_27.jpg", "ANONIS_28.jpg", "ANONIS_29.jpg", "ANONIS_30.jpg",
+		"ANONIS_31.jpg", "ANONIS_32.jpg", "ANONIS_33.jpg", "ANONIS_34.jpg", "ANONIS_35.jpg", "ANONIS_36.jpg",
+		"ANONIS_37.jpg", "anoco_1.jpg", "anoco_2.jpg", "anoco_3.jpg", "anoco_4.jpg", "AYAMORIE_1.jpg",
+		"AYAMORIE_2.jpg", "AYAMORIE_3.jpg", "ZOSUNGA_1.jpg", "ZOSUNGA_2.jpg", "SEIZESEI_1.jpg", "SEIZESEI_2.jpg",
+		"SEIZESEI_3.jpg", "OMO_1.jpg", "OMO_2.jpg", "OMO_3.jpg", "OMO_4.jpg", "LOTUSYEON_1.jpg", "LOTUSYEON_2.jpg",
+		"LOTUSYEON_3.jpg", "Heinz_1.jpg", "Heinz_2.jpg", "OUEN_1.jpg", "OUEN_2.jpg", "OUEN_3.jpg",
+		"Roompacker.jpg", "66girls.jpg"
+	  ];
+
 var currentImageIndex;
 
 document.querySelectorAll(".thumbnail").forEach(function(thumbnail, index) {
 	thumbnail.addEventListener("click", function() {
 		currentImageIndex = index;
 		showPopup();
+		showImage();
 	});
 });
 
@@ -142,18 +142,23 @@ document.querySelector("#close-button").addEventListener("click", function() {
 	hidePopup();
 });
 
-function showPopup() {
-	showImage();
-	document.querySelector("#popup").style.display = "flex";
-}
 
 function hidePopup() {
 	document.querySelector("#popup").style.display = "none";
 }
 
 function showImage() {
-	document.querySelector("#image").src = images[currentImageIndex];
-}
+	var imageElement = document.querySelector("#image");
+	var filenameElement = document.querySelector("#filename");
+  
+	imageElement.src = images[currentImageIndex];
+	filenameElement.textContent = filenames[currentImageIndex];
+  }
+  
+  function showPopup() {
+	var popupElement = document.querySelector("#popup");
+	popupElement.style.display = "flex";
+  }
 
 
 
