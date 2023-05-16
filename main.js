@@ -74,9 +74,24 @@ function toggleBtn1() {
 
 
 /* 갤러리 팝업을 위한 코드 */
+
 //var images = ["/img/portfolio/1.png", "/img/portfolio/2.png", "/img/portfolio/3.png", "/img/portfolio/4.png", "/img/portfolio/5.png"];
 var images = [
-"/img/portfolio/img (1).jpg", "/img/portfolio/img (2).jpg", "/img/portfolio/img (3).jpg", "/img/portfolio/img (4).jpg", 
+	"img/portfolio/ANONIS_1.jpg", "/img/portfolio/ANONIS_2.jpg", "/img/portfolio/ANONIS_3.jpg", 
+	"/img/portfolio/ANONIS_4.jpg", "/img/portfolio/ANONIS_5.jpg", "/img/portfolio/ANONIS_6.jpg", 
+	"/img/portfolio/ANONIS_7.jpg", "/img/portfolio/ANONIS_8.jpg", "/img/portfolio/ANONIS_9.jpg", 
+	"/img/portfolio/ANONIS_10.jpg", "/img/portfolio/ANONIS_11.jpg", "/img/portfolio/ANONIS_12.jpg", 
+	"/img/portfolio/ANONIS_13.jpg", "/img/portfolio/ANONIS_14.jpg", "/img/portfolio/ANONIS_15.jpg", 
+	"/img/portfolio/ANONIS_16.jpg", "/img/portfolio/ANONIS_17.jpg", "/img/portfolio/ANONIS_18.jpg", 
+	"/img/portfolio/ANONIS_19.jpg", "/img/portfolio/ANONIS_20.jpg", "/img/portfolio/ANONIS_21.jpg", 
+	"/img/portfolio/ANONIS_22.jpg", "/img/portfolio/ANONIS_23.jpg", "/img/portfolio/ANONIS_24.jpg", 
+	"/img/portfolio/ANONIS_25.jpg", "/img/portfolio/ANONIS_26.jpg", "/img/portfolio/ANONIS_27.jpg", 
+	"/img/portfolio/ANONIS_28.jpg", "/img/portfolio/ANONIS_29.jpg", "/img/portfolio/ANONIS_30.jpg", 
+	"/img/portfolio/ANONIS_31.jpg", "/img/portfolio/ANONIS_32.jpg", "/img/portfolio/ANONIS_33.jpg", 
+	"/img/portfolio/ANONIS_34.jpg", "/img/portfolio/ANONIS_35.jpg", "/img/portfolio/ANONIS_36.jpg", 
+	"/img/portfolio/ANONIS_37.jpg", "/img/portfolio/ANONIS_38.jpg"]
+/*var images = [
+"/img/ANONIS_1.jpg", "/img/portfolio/ANONIS_2.jpg", "/img/portfolio/img (3).jpg", "/img/portfolio/img (4).jpg", 
 "/img/portfolio/img (5).jpg", "/img/portfolio/img (6).jpg", "/img/portfolio/img (7).jpg", "/img/portfolio/img (8).jpg", 
 "/img/portfolio/img (9).jpg", "/img/portfolio/img (10).jpg", "/img/portfolio/img (11).jpg", "/img/portfolio/img (12).jpg", 
 "/img/portfolio/img (13).jpg", "/img/portfolio/img (14).jpg", "/img/portfolio/img (15).jpg", "/img/portfolio/img (16).jpg", 
@@ -90,7 +105,7 @@ var images = [
 "/img/portfolio/img (49).jpg", "/img/portfolio/img (50).jpg", "/img/portfolio/img (51).jpg", "/img/portfolio/img (52).jpg", 
 "/img/portfolio/img (53).jpg", "/img/portfolio/img (54).jpg", "/img/portfolio/img (55).jpg", "/img/portfolio/img (56).jpg", 
 "/img/portfolio/img (57).jpg", "/img/portfolio/img (58).jpg", "/img/portfolio/img (59).jpg", "/img/portfolio/img (60).jpg", 
-"/img/portfolio/img (61).jpg", "/img/portfolio/img (62).jpg", "/img/portfolio/img (63).jpg"];
+"/img/portfolio/img (61).jpg", "/img/portfolio/img (62).jpg", "/img/portfolio/img (63).jpg"];*/
 var currentImageIndex;
 
 document.querySelectorAll(".thumbnail").forEach(function(thumbnail, index) {
