@@ -1,8 +1,6 @@
-# Newjeans_project
+# Anonis.kr
 
-This is a project to make a homepage, which has a design looks like 
-<a href="https://newjeans.kr">newjeans.kr</a>
+This is a personal hompage.<br>
+<a href="https://anonis.kr">anonis.kr</a>
 <br><br>
-02.09<br>
-<img src="daily_result/02.09.jpg" width="600" height="400"><br>
-02.10(complete)<br>
+<img src="main.jpg" width="400" height="600"><br>
