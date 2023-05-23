@@ -572,7 +572,7 @@ overflow-x: hidden;
 
 #workingorder_fashion-content_exit {
 position: absolute;
-top: calc(60% - 33px);
+top: calc(65% - 70px);
 left: 50%;
 min-width: 310px;
 max-width: 470px;
@@ -649,7 +649,7 @@ border-style:solid;
 
 #workingorder_stylist-content_exit {
   position: absolute;
-  top: calc(60% - 33px);
+  top: calc(65% - 70px);
   left: 50%;
   min-width: 310px;
   max-width: 470px;
