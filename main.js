@@ -77,6 +77,12 @@ function toggleBtn1() {
 
 //var images = ["/img/portfolio/1.png", "/img/portfolio/2.png", "/img/portfolio/3.png", "/img/portfolio/4.png", "/img/portfolio/5.png"];
 var images = [
+	"/img/portfolio/OUEN_1.jpg", "/img/portfolio/OUEN_2.jpg", "/img/portfolio/OUEN_3.jpg",
+	"/img/portfolio/OUEN_4.jpg", "/img/portfolio/OUEN_5.jpg", "/img/portfolio/OUEN_6.jpg",
+	"/img/portfolio/OUEN_7.jpg", "/img/portfolio/OUEN_8.jpg", "/img/portfolio/OUEN_9.jpg",
+	"/img/portfolio/OUEN_10.jpg", "/img/portfolio/OUEN_11.jpg", "/img/portfolio/OUEN_12.jpg",
+	"/img/portfolio/ABD_01.jpg", "/img/portfolio/ABD_02.jpg", "/img/portfolio/ABD_03.jpg",
+	"/img/portfolio/ABD_04.jpg", "/img/portfolio/ABD_05.jpg", "/img/portfolio/ABD_06.jpg", "/img/portfolio/ABD_07.jpg",
 	"img/portfolio/ANONIS_1.jpg", "/img/portfolio/ANONIS_2.jpg", "/img/portfolio/ANONIS_3.jpg", 
 	"/img/portfolio/ANONIS_4.jpg", "/img/portfolio/ANONIS_5.jpg", "/img/portfolio/ANONIS_6.jpg", 
 	"/img/portfolio/ANONIS_7.jpg", "/img/portfolio/ANONIS_8.jpg", "/img/portfolio/ANONIS_9.jpg", 
@@ -95,10 +101,12 @@ var images = [
     "/img/portfolio/SEIZESEI_1.jpg", "/img/portfolio/SEIZESEI_2.jpg", "/img/portfolio/SEIZESEI_3.jpg", "/img/portfolio/OMO_1.jpg", 
 	"/img/portfolio/OMO_2.jpg", "/img/portfolio/OMO_3.jpg", "/img/portfolio/OMO_4.jpg",
     "/img/portfolio/LOTUSYEON_1.jpg", "/img/portfolio/LOTUSYEON_2.jpg", "/img/portfolio/LOTUSYEON_3.jpg", 
-	"/img/portfolio/Heinz_1.jpg", "/img/portfolio/Heinz_2.jpg", "/img/portfolio/OUEN_1.jpg", "/img/portfolio/OUEN_2.jpg", "/img/portfolio/OUEN_3.jpg"
-    ,"/img/portfolio/Roompacker.jpg", "/img/portfolio/66girls.jpg"]
+	"/img/portfolio/Heinz_1.jpg", "/img/portfolio/Heinz_2.jpg", "/img/portfolio/Roompacker.jpg", "/img/portfolio/66girls.jpg"]
 
 	var filenames = [
+		"OUEN_1.jpg", "OUEN_2.jpg", "OUEN_3.jpg", "OUEN_4.jpg", "OUEN_5.jpg", "OUEN_6.jpg",
+		"OUEN_7.jpg", "OUEN_8.jpg", "OUEN_9.jpg", "OUEN_10.jpg", "OUEN_11.jpg", "OUEN_12.jpg",
+		"ABD_01.jpg", "ABD_02.jpg", "ABD_03.jpg", "ABD_04.jpg", "ABD_05.jpg", "ABD_06.jpg", "ABD_07.jpg",
 		"ANONIS_1.jpg", "ANONIS_2.jpg", "ANONIS_3.jpg", "ANONIS_4.jpg", "ANONIS_5.jpg", "ANONIS_6.jpg",
 		"ANONIS_7.jpg", "ANONIS_8.jpg", "ANONIS_9.jpg", "ANONIS_10.jpg", "ANONIS_11.jpg", "ANONIS_12.jpg",
 		"ANONIS_13.jpg", "ANONIS_14.jpg", "ANONIS_15.jpg", "ANONIS_16.jpg", "ANONIS_17.jpg", "ANONIS_18.jpg",
@@ -108,8 +116,7 @@ var images = [
 		"ANONIS_37.jpg", "anoco_1.jpg", "anoco_2.jpg", "anoco_3.jpg", "anoco_4.jpg", "AYAMORIE_1.jpg",
 		"AYAMORIE_2.jpg", "AYAMORIE_3.jpg", "ZOSUNGA_1.jpg", "ZOSUNGA_2.jpg", "SEIZESEI_1.jpg", "SEIZESEI_2.jpg",
 		"SEIZESEI_3.jpg", "OMO_1.jpg", "OMO_2.jpg", "OMO_3.jpg", "OMO_4.jpg", "LOTUSYEON_1.jpg", "LOTUSYEON_2.jpg",
-		"LOTUSYEON_3.jpg", "Heinz_1.jpg", "Heinz_2.jpg", "OUEN_1.jpg", "OUEN_2.jpg", "OUEN_3.jpg",
-		"Roompacker.jpg", "66girls.jpg"
+		"LOTUSYEON_3.jpg", "Heinz_1.jpg", "Heinz_2.jpg", "Roompacker.jpg", "66girls.jpg"
 	  ];
 
 var currentImageIndex;
